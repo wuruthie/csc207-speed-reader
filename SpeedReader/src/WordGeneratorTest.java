@@ -22,7 +22,7 @@ public class WordGeneratorTest {
 		while (story.hasNext1()) {
 			String word = story.next();
 		}
-		assertEquals("story.numSentences = 2", 2, story.getSentenceCount());
+		assertEquals("story.numSentences = 7", 7, story.getSentenceCount());
 	}
 
 }
